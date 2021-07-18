@@ -1,0 +1,347 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{margin: 0;
+    
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.cabecalho {
+    height: 50px;
+    float:left;
+    padding: 50px 8%; 
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-size: 20px;
+}
+
+.btn1 {
+    position: absolute;
+    top: 30px;
+    left:700px;
+    padding: 10px 8px;
+    width: 100px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+.btn1:hover{
+    background: violet;
+    transition: background 0.5s;
+
+}
+
+.btn2 {
+    position: absolute;
+    top: 30px;
+    left: 820px;
+    padding: 10px 8px;
+    width: 130px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+
+.btn2:hover{
+    background: violet;
+    transition: background 0.5s;
+
+}
+
+
+.btn3 {
+    position: absolute;
+    top: 30px;
+    left:980px;
+    padding: 10px 8px;
+    width: 100px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+    
+
+
+}
+
+.btn3:hover{
+    background: violet;
+    transition: background 0.5s;
+
+}
+
+
+.btn4 {
+    position: absolute;
+    top: 30px;
+    left:1100px;
+    padding: 10px 8px;
+    width: 100px;
+    color: black;
+    border-radius: 5px;
+    text-align: center;
+    user-select: none;
+    cursor: pointer;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.btn4:hover{
+    background: violet;
+    transition: background 0.5s;
+
+}
+
+
+.section-container{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.texto1{
+    position: absolute;
+    top: 300px;
+    left: 20px;
+    font-size: larger;
+    color: black;
+    text-align: center;
+    max-width: 500px;
+    text-shadow: 1px 0px 2px blueviolet, 0px 1px 2px blueviolet, -1px 0px 2px blueviolet, 0px -1px 2px blueviolet;
+    
+}
+
+.texto2{
+    position: absolute;
+    top: 450px;
+    left: 20px;
+    font-size: larger;
+    color:black;
+    text-align: center;
+    max-width: 500px;
+    text-shadow: 1px 0px 2px violet, 0px 1px 2px violet, -1px 0px 2px violet, 0px -1px 2px violet;
+    
+}
+
+.texto3{
+    position: absolute;
+    top: 820px;
+    left: 350px;
+    font-size: 25px;
+    color:black;
+    max-width: 700px;
+    text-shadow: 1px 0px 2px violet, 0px 1px 2px violet, -1px 0px 2px violet, 0px -1px 2px violet;
+    
+}
+
+
+.background-section{
+    background-image: url(./assets/preto4.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+
+   
+}
+
+.section-one{
+    background-image: url(./assets/preto4.jpg);
+}
+
+.section-two{
+    background-image: url(./assets/roxo3.jpg);
+
+}
+
+.card-container {
+    position: absolute;
+    top: 200px;
+    left: 800px;
+    background-color:black;
+    border: 2px solid blueviolet;
+    border-radius: 25px;
+    padding: 50px;
+    max-width: 400px;
+    color:black;
+    margin: 20px 0;
+  
+
+}
+
+#textoform{
+    margin: 20px 0;
+}
+
+#content{
+    display: flex;
+    flex-flow: column wrap;
+    color: black;
+    box-shadow: inset 0px 2px 6px 0px;
+    text-shadow: 1px 0px 2px violet, 0px 1px 2px violet, -1px 0px 2px violet, 0px -1px 2px violet;
+    width: 100%;
+    text-align: center;
+    align-items: left;
+   
+}
+
+
+
+
+
+
+input{
+    height: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    border: blueviolet;
+    background-color:beige;
+    color:black;
+    font-family: 'Montserrat', sans-serif ;
+    padding-left: 10px;
+    
+
+
+}
+
+form{
+    display: grid;
+
+    
+}
+
+
+.conteudo2 {
+    top: 300px;
+    overflow: hidden;
+    margin: 0 auto;
+    border-top: solid 5px yellow
+    
+
+}
+
+
+
+.item1{
+    overflow: hidden;
+    position: absolute;
+    top: 920px;
+    left: 180px;
+    max-width: 700px;
+    text-align: center;
+    color:beige;
+}
+
+
+.item2{
+    position: absolute;
+    top: 890px;
+    left: 550px;
+    border-radius: 25px;
+    max-width: 700px;
+    text-align: center;
+    color:beige;
+}
+
+.item3{
+    position: absolute;
+    top: 920px;
+    left: 930px;
+    border-radius: 25px;
+    max-width: 700px;
+    text-align: center;
+    color:beige;
+}
+.item4{
+    position: absolute;
+    top: 1200px;
+    left: 180px;
+    border-radius: 25px;
+    max-width: 700px;
+    text-align: center;
+    color:beige;
+}
+.item5{
+    position: absolute;
+    top: 1250px;
+    left: 550px;
+    border-radius: 25px;
+    max-width: 700px;
+    text-align: center;
+    color:beige;
+}
+.item6{
+    position: absolute;
+    top: 1200px;
+    left: 930px;
+    border-radius: 25px;
+    max-width: 700px;
+    text-align: center;
+    color:beige;
+}
+
+.item1, .item2, .item3, .item4, .item5, .item6 img {
+    max-width: 100%;
+    -moz-transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    transition: 0.3s;
+
+}
+
+.item1:hover, .item2:hover, .item3:hover, .item4:hover, .item5:hover, .item6:hover img{
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+
+footer{
+    height: 70px;
+    padding: 25px;
+    text-align: center;
+    background-color:violet;
+    color:black
+}
+
+.icone1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1520px;
+    left: 620px;
+    
+
+}
+
+.icone2{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 1520px;
+    left: 700px;
+    
+
+}
+
